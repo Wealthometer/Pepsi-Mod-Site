@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi Products - Explore Our Range</title>
+    <link rel="stylesheet" href="./product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="background-elements">
+        <div class="bubble bubble-1"></div>
+        <div class="bubble bubble-2"></div>
+        <div class="bubble bubble-3"></div>
+        <div class="bubble bubble-4"></div>
+        <div class="bubble bubble-5"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Pepsi_logo_2014.svg/1200px-Pepsi_logo_2014.svg.png" alt="Pepsi Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./home2.html">Home</a></li>
+                <li><a href="#" class="active">Products</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./pepsi.html">Landing Page</a></li>
+                <!-- <li><a href="./pepsi.html">Landing Page</a></li> -->
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="product-hero">
+        <div class="hero-content">
+            <h1 class="animate-text">DISCOVER <span>OUR PRODUCTS</span></h1>
+            <p class="animate-text delay-1">Explore the refreshing world of Pepsi with our wide range of products</p>
+        </div>
+        <div class="hero-image">
+            <!-- <img src="https://www.pepsico.com/images/default-source/products-brands/pepsi_12oz.png?sfvrsn=46c9d8d_0" alt="Pepsi Can" class="floating-can"> -->
+             <img src="./img/pepsi splash.png" alt="" class="floating-can">
+        </div>
+    </section>
+
+    <!-- Product Filter -->
+    <section class="product-filter">
+        <div class="filter-container">
+            <h2>Filter Products</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="original">Original</button>
+                <button class="filter-btn" data-filter="zero-sugar">Zero Sugar</button>
+                <button class="filter-btn" data-filter="flavored">Flavored</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section class="product-showcase">
+        <div class="products-grid">
+            <!-- Product 1 -->
+            <div class="product-card" data-category="original">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <div class="product-image">
+                            <img src="./img/pepsi 1.png" alt="Pepsi Original">
+                        </div>
+                        <h3>Pepsi Original</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <h3>Pepsi Original</h3>
+                        <p>The bold, refreshing, robust cola with the original Pepsi taste.</p>
+                        <div class="product-details">
+                            <div class="detail">
+                                <span class="label">Calories:</span>
+                                <span class="value">150</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Sugar:</span>
+                                <span class="value">41g</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Caffeine:</span>
+                                <span class="value">38mg</span>
+                            </div>
+                        </div>
+                        <a href="#" class="product-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card" data-category="zero-sugar">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <div class="product-image">
+                            <img src="./img/pepsi 3.png" alt="Pepsi Zero Sugar">
+                        </div>
+                        <h3>Pepsi Zero Sugar</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <h3>Pepsi Zero Sugar</h3>
+                        <p>Maximum Pepsi taste with zero sugar and zero calories.</p>
+                        <div class="product-details">
+                            <div class="detail">
+                                <span class="label">Calories:</span>
+                                <span class="value">0</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Sugar:</span>
+                                <span class="value">0g</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Caffeine:</span>
+                                <span class="value">35mg</span>
+                            </div>
+                        </div>
+                        <a href="#" class="product-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card" data-category="original">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <div class="product-image">
+                            <img src="./img/pepsi 2.png" alt="Diet Pepsi">
+                        </div>
+                        <h3>Diet Pepsi</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <h3>Diet Pepsi</h3>
+                        <p>Light, crisp, refreshing taste with zero calories.</p>
+                        <div class="product-details">
+                            <div class="detail">
+                                <span class="label">Calories:</span>
+                                <span class="value">0</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Sugar:</span>
+                                <span class="value">0g</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Caffeine:</span>
+                                <span class="value">35mg</span>
+                            </div>
+                        </div>
+                        <a href="#" class="product-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card" data-category="flavored">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <div class="product-image">
+                            <img src="./img/pepsi 11.png" alt="Pepsi Wild Cherry">
+                        </div>
+                        <h3>Pepsi Wild Cherry</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <h3>Pepsi Wild Cherry</h3>
+                        <p>Bold Pepsi taste with a sweet, wild cherry flavor.</p>
+                        <div class="product-details">
+                            <div class="detail">
+                                <span class="label">Calories:</span>
+                                <span class="value">160</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Sugar:</span>
+                                <span class="value">42g</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Caffeine:</span>
+                                <span class="value">38mg</span>
+                            </div>
+                        </div>
+                        <a href="#" class="product-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="product-card" data-category="flavored">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <div class="product-image">
+                            <img src="./img/pepsi 9.png" alt="Pepsi Mango">
+                        </div>
+                        <h3>Pepsi Mango</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <h3>Pepsi Mango</h3>
+                        <p>The perfect combination of refreshing Pepsi cola and sweet, tropical mango flavor.</p>
+                        <div class="product-details">
+                            <div class="detail">
+                                <span class="label">Calories:</span>
+                                <span class="value">150</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Sugar:</span>
+                                <span class="value">41g</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Caffeine:</span>
+                                <span class="value">38mg</span>
+                            </div>
+                        </div>
+                        <a href="#" class="product-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card" data-category="zero-sugar">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <div class="product-image">
+                            <img src="./img/pepsi 10.png" alt="Pepsi Zero Sugar Wild Cherry">
+                        </div>
+                        <h3>Pepsi Zero Sugar Wild Cherry</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <h3>Pepsi Zero Sugar Wild Cherry</h3>
+                        <p>Bold cherry flavor with zero sugar and zero calories.</p>
+                        <div class="product-details">
+                            <div class="detail">
+                                <span class="label">Calories:</span>
+                                <span class="value">0</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Sugar:</span>
+                                <span class="value">0g</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Caffeine:</span>
+                                <span class="value">35mg</span>
+                            </div>
+                        </div>
+                        <a href="#" class="product-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="flavored">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <div class="product-image">
+                            <img src="./img/pepsi 15.png" alt="Pepsi Lime">
+                        </div>
+                        <h3>Pepsi Lime</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <h3>Pepsi Lime</h3>
+                        <p>Refreshing Pepsi with a zesty lime twist.</p>
+                        <div class="product-details">
+                            <div class="detail">
+                                <span class="label">Calories:</span>
+                                <span class="value">150</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Sugar:</span>
+                                <span class="value">41g</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Caffeine:</span>
+                                <span class="value">38mg</span>
+                            </div>
+                        </div>
+                        <a href="https://en.wikipedia.org/wiki/List_of_Pepsi_variations#Sugar_drinks" class="product-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="product-card" data-category="zero-sugar">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <div class="product-image">
+                            <img src="./img/pepsi 4.png" alt="Pepsi Caffeine Free">
+                        </div>
+                        <h3>Pepsi Caffeine Free</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <h3>Pepsi Caffeine Free</h3>
+                        <p>The same great Pepsi taste without the caffeine.</p>
+                        <div class="product-details">
+                            <div class="detail">
+                                <span class="label">Calories:</span>
+                                <span class="value">150</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Sugar:</span>
+                                <span class="value">41g</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Caffeine:</span>
+                                <span class="value">0mg</span>
+                            </div>
+                        </div>
+                        <a href="https://en.wikipedia.org/wiki/Caffeine-Free_Pepsi" class="product-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="zero-sugar">
+                <div class="product-card-inner">
+                    <div class="product-card-front">
+                        <div class="product-image">
+                            <img src="./img/pepsi 8.png" alt="Pepsi Caffeine Free">
+                        </div>
+                        <h3>Diet Wild Cherry</h3>
+                    </div>
+                    <div class="product-card-back">
+                        <h3>Pepsi Caffeine Free</h3>
+                        <p>The same great Pepsi taste without the caffeine.</p>
+                        <div class="product-details">
+                            <div class="detail">
+                                <span class="label">Calories:</span>
+                                <span class="value">150</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Sugar:</span>
+                                <span class="value">41g</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Caffeine:</span>
+                                <span class="value">0mg</span>
+                            </div>
+                        </div>
+                        <a href="https://en.wikipedia.org/wiki/Caffeine-Free_Pepsi" class="product-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Product -->
+    <section class="featured-product">
+        <div class="featured-container">
+            <div class="featured-content">
+                <h2 class="reveal-text">FEATURED PRODUCT</h2>
+                <h3 class="reveal-text delay-1">Pepsi Nitro</h3>
+                <p class="reveal-text delay-2">Experience the smooth, creamy texture of Pepsi Nitro. Infused with nitrogen for a velvety smooth taste experience unlike any other Pepsi.</p>
+                <a href="https://en.wikipedia.org/wiki/Nitro_Pepsi" class="btn reveal-text delay-3">Discover Now</a>
+            </div>
+            <div class="featured-image">
+                <img src="./img/pepsi 13.png" alt="Pepsi Nitro" class="floating-product">
+                <img src="./img/pepsi 14.png" alt="Pepsi Nitro" class="floating-product">
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Comparison -->
+    <section class="product-comparison">
+        <h2 class="section-title reveal-text">Compare Products</h2>
+        <div class="comparison-container">
+            <div class="comparison-table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Calories</th>
+                            <th>Sugar</th>
+                            <th>Caffeine</th>
+                            <th>Flavor Profile</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pepsi Original</td>
+                            <td>150</td>
+                            <td>41g</td>
+                            <td>38mg</td>
+                            <td>Bold, refreshing cola</td>
+                        </tr>
+                        <tr>
+                            <td>Pepsi Zero Sugar</td>
+                            <td>0</td>
+                            <td>0g</td>
+                            <td>35mg</td>
+                            <td>Bold cola, zero sugar</td>
+                        </tr>
+                        <tr>
+                            <td>Diet Pepsi</td>
+                            <td>0</td>
+                            <td>0g</td>
+                            <td>35mg</td>
+                            <td>Light, crisp taste</td>
+                        </tr>
+                        <tr>
+                            <td>Pepsi Wild Cherry</td>
+                            <td>160</td>
+                            <td>42g</td>
+                            <td>38mg</td>
+                            <td>Cola with cherry flavor</td>
+                        </tr>
+                        <tr>
+                            <td>Pepsi Caffeine Free</td>
+                            <td>150</td>
+                            <td>41g</td>
+                            <td>0mg</td>
+                            <td>Cola without caffeine</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Pepsi_logo_2014.svg/1200px-Pepsi_logo_2014.svg.png" alt="Pepsi Logo"> -->
+                 <img src="./img/logo-0.png" alt="">
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 PepsiCo, Inc. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="product2.js"></script>
+</body>
+</html>
